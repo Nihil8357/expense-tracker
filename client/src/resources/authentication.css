@@ -1,0 +1,78 @@
+
+.register {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lottie {
+    height: 600px;
+}
+
+.register input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;   
+    height: 40px;
+    color: white;
+}
+
+.register input:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+.register input:focus {
+    color: black;
+}
+
+input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+label, a {
+    color: #fff !important;
+}
+
+.register h1 {
+    font-size: 25px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+
+.gradient-x {
+
+    display: flex;
+    gap: 5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+    border-radius: 0.8rem;
+    width: 80rem;
+    height: 40rem;
+
+    background: hsla(227, 100%, 84%, 1);
+
+    background: linear-gradient(90deg, hsla(227, 100%, 84%, 1) 0%, hsla(317, 29%, 42%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(227, 100%, 84%, 1) 0%, hsla(317, 29%, 42%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(227, 100%, 84%, 1) 0%, hsla(317, 29%, 42%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ABBDFF", endColorstr="#894B77", GradientType=1 );
+
+}
+
+.ant-spin-dot-item {
+    background-color: gray;
+}
+
+.spinner {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
